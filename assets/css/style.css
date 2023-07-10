@@ -159,6 +159,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: none !important;
 }
 
 .loader-ripple {
@@ -1871,8 +1872,8 @@ button.navbar-toggler:focus {
   background: #010101;
   padding: 50px 0;
   border-radius: 15px;
-  background: repeating-linear-gradient(45deg, rgb(24, 24, 24), black 30px);
-  border: 0.5px solid rgba(255, 255, 255, 0.466);
+  background: repeating-linear-gradient(45deg, rgb(12, 12, 12), black 30px);
+  border: 0.5px solid #cc866c;
   margin-top: -100px;
 }
 .regular-chart ul {
@@ -4029,6 +4030,15 @@ body.rtl-mode .price-wrapper {
   transition: 0.3s;
   color: #fff;
 }
+.footer-contact li:nth-child(2) i{
+  width: 45px;
+}
+@media(max-width: 710px){
+  .footer-contact li:nth-child(2) i{
+    width: 30px;
+  }
+}
+
 
 .footer-newsletter-wrapper {
   padding: 40px 30px;
