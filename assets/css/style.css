@@ -1106,7 +1106,7 @@ button.navbar-toggler:focus {
 
 @media(max-width: 710px){
   .hero-single{
-    background-size: 300% 100% !important;
+    background-size: 350% 100% !important;
     background-position-x: -700px !important;
     background-position-y: 100px !important;
   }
