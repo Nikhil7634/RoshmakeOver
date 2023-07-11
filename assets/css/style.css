@@ -1104,7 +1104,13 @@ button.navbar-toggler:focus {
   z-index: 1;
 }
 
-
+@media(max-width: 710px){
+  .hero-single{
+    background-size: 300% 100% !important;
+    background-position-x: -700px !important;
+    background-position-y: 100px !important;
+  }
+}
 .hero-single::before {
   content: "";
   position: absolute;
@@ -1737,6 +1743,8 @@ button.navbar-toggler:focus {
   color: #101010;
   margin-bottom: 10px;
 }
+
+
 
 @media all and (max-width: 1199px) {
   .feature-area {
@@ -3945,6 +3953,17 @@ body.rtl-mode .price-wrapper {
   color: #f5faff;
   margin-bottom: 0;
   font-size: 16px;
+  white-space: nowrap;
+}
+.copyright .copyright-text br{
+  display: none;
+
+}
+@media(max-width: 710px){
+  .copyright .copyright-text{
+    white-space: pre-wrap;
+    text-align: center;
+  }
 }
 
 .copyright .copyright-text a {
@@ -4079,6 +4098,7 @@ body.rtl-mode .price-wrapper {
   background: #30343b;
   color: #cc866c;
 }
+
 
 @media all and (max-width: 1199px) {
   .footer-widget-box {
