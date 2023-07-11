@@ -1558,6 +1558,9 @@ button.navbar-toggler:focus {
   display: block;
   overflow: hidden;
 }
+.service-area .container .row:nth-child(2) .col-lg-4{
+  margin-top: 30px;
+}
 
 .service-item {
   position: relative;
@@ -1570,6 +1573,7 @@ button.navbar-toggler:focus {
   box-shadow: 0 0 40px 5px rgb(0 0 0/5%);
   transition: all 0.5s ease-in-out;
   z-index: 1;
+  height: 100%;
 }
 
 .service-item::before {
