@@ -4169,3 +4169,20 @@ body.rtl-mode .price-wrapper {
     padding: 15px 0;
   }
 }
+
+.partner-area{
+  padding: 80px 0;
+}
+.partner-area .container .partner-wrapper{
+  mix-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.partner-area .container .partner-slider img{
+  align-self: center;
+  width: 80%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
