@@ -1561,7 +1561,9 @@ button.navbar-toggler:focus {
 .service-area .container .row:nth-child(2) .col-lg-4{
   margin-top: 30px;
 }
-
+.service-area .container .row:nth-child(2) .col-lg-3{
+  margin-top: 30px;
+}
 .service-item {
   position: relative;
   padding: 25px;
@@ -4190,3 +4192,41 @@ body.rtl-mode .price-wrapper {
   aspect-ratio: 3/2;
   object-fit: contain;
 }
+
+.classes-enquiry-img-box{
+  display: grid;
+  place-items: center;
+}
+.classes-enquiry-img-box::before{
+  display: none;
+}
+
+.classes-enquiry-img{
+  width: 85%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* gallery */
+
+ .gallery-collection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+ }
+.gallery-collection img{
+  height: 400px;
+  margin: 20px;
+}
+
+ 
+
+ 
