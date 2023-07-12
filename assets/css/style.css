@@ -4202,7 +4202,7 @@ body.rtl-mode .price-wrapper {
 }
 
 .classes-enquiry-img{
-  width: 85%;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -4227,6 +4227,11 @@ body.rtl-mode .price-wrapper {
   margin: 20px;
 }
 
- 
-
- 
+ @media(max-width: 710px){
+  .gallery-collection img{
+    margin: 0;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 100%;
+  }
+}
