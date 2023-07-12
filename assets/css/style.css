@@ -1910,7 +1910,7 @@ button.navbar-toggler:focus {
   margin-left: 5px;
 }
 
-.testimonial-area {
+.testimonial-area{
   position: relative;
   background: url(../img/testimonial/bg.jpg);
   background-attachment: fixed;
