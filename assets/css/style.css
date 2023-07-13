@@ -3967,7 +3967,7 @@ body.rtl-mode .price-wrapper {
 }
 @media(max-width: 710px){
   .copyright .copyright-text{
-    white-space: pre-wrap;
+    white-space: normal;
     text-align: center;
   }
 }
