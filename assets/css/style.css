@@ -3636,7 +3636,7 @@ body.rtl-mode .price-wrapper {
   border-radius: 0;
 }
 
-.login-form .forgot-pass {
+.login-form .forgot-pass{
   color: #cc866c;
   transition: 0.5s;
 }
@@ -3967,9 +3967,8 @@ body.rtl-mode .price-wrapper {
 }
 @media(max-width: 710px){
   .copyright .copyright-text{
+    white-space: pre-wrap;
     text-align: center;
-    padding: 0 !important;
-    white-space: normal;
   }
 }
 
